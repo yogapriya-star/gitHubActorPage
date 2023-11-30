@@ -12,56 +12,57 @@ Create a 2 branch as taskActorPage1 and taskActorPage2 from main branch
 Create a newfolder as gitIntro and open with visual studio
 
 Open Command Prompt
+```bash
+git clone https://github.com/yogapriya-star/gitHubActorPage.git
+  
+cd gitHubActorPage
 
-  => git clone https://github.com/yogapriya-star/gitHubActorPage.git
+git branch
   
-  => cd gitHubActorPage
+git branch -a
   
-  => git branch
+git checkout taskActorPage1
   
-  => git branch -a
-  
-  => git checkout taskActorPage1
-  
-  => git branch
+git branch
+```
   
 Changes the code in 'task.html' file 
 
 Open Command Prompt
+```bash
+git add .
+  
+git status
+  
+git commit -m "Added paragraph in task.html file"
 
-  => git add .
+git push origin taskActorPage1
   
-  => git status
+git checkout main
   
-  => git commit -m "Added paragraph in task.html file"
-
-  => git push origin taskActorPage1
+git merge taskActorPage1
   
-  => git checkout main
+git push origin main
   
-  => git merge taskActorPage1
+git checkout taskActorPage2
   
-  => git push origin main
-  
-  => git checkout taskActorPage2
-  
-  => git pull origin main
-  
+git pull origin main
+```  
 Changes the code in 'task.html' file 
 
 Open Command Prompt
-
-  => git add .
+```bash
+git add .
   
-  => git status
+git status
   
-  => git commit -m "Added phone number in task.html file"
+git commit -m "Added phone number in task.html file"
   
-  => git push origin taskActorPage2
+git push origin taskActorPage2
   
-  => git checkout main
+git checkout main
   
-  => git merge taskActorPage2
+git merge taskActorPage2
   
-  => git push origin main
-  
+git push origin main
+```
